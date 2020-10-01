@@ -8,7 +8,10 @@ export default function Project(props) {
     target = "_blank"
       className="project-background"
       >
-        
+        <div className = "project-image">
+          <img className = "project-image" src = {props.source} />
+
+        </div>
       <div className="project-info">
         <h1>{props.title}</h1>
       </div>

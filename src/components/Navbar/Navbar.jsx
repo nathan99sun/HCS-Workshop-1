@@ -11,9 +11,12 @@ export default function Navbar() {
           <p className="info-item">nsun@college.harvard.edu</p>
         </div>
         <div className="info-bar">
+          <p className="info-item">703-297-7918</p>
+        </div>
+        <div className="info-bar">
           <Link 
             className = "info-link"
-            to = {{pathname: "https://facebook.com"}}
+            to = {{pathname: "https://www.facebook.com/nathan.sun.503/"}}
             target = "_blank"
           >
             Facebook
@@ -21,7 +24,7 @@ export default function Navbar() {
 
             <Link 
             className = "info-link"
-            to = {{pathname: "https://linkedin.com"}}
+            to = {{pathname: "https://www.linkedin.com/in/nathan-sun-00a779186/"}}
             target = "_blank"
           >
             LinkedIn
@@ -33,6 +36,8 @@ export default function Navbar() {
         <Link className='nav-link' to = {{pathname: '/about'}}>About</Link>
         <Link className='nav-link' to = {{pathname: '/experience'}}>Experiences</Link>
         <Link className='nav-link' to = {{pathname: '/projects'}}>Projects</Link>
+        <Link className='nav-link' to = {{pathname: '/education'}}>Education</Link>
+        <input type="text" placeholder="Search.."></input>
         </div>
     </>
   );

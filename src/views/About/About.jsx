@@ -10,9 +10,16 @@ export default function AboutScreen() {
           <img src={CutePic} className='intro-picture'/> 
         </div>
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
+          <p>
+            Hi! I'm Nathan, and welcome to my homepage! <br />
+            I'm currently a student at Harvard College. <br />
+            I'm really interested in math, CS, and economics! In particular, I love game theory, combinatorics (q-Eulerian polynomials), and generative adversarial networks :). <br />
+            In my free time, I enjoy sleeping at random times, stressing with friends and Dunkin Donuts, complaining (which I'm very good at), and using parentheses way too often. 
+            I love going out to eat with friends, fishing, and watching Bayern Munich play. 
+
+          </p>
         </div>
+       
       </div>
     </div>
   );
