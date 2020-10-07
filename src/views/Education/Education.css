@@ -27,3 +27,6 @@ li {
 p {
   white-space: pre-wrap;
 } 
+.item-background {
+  width: 50%;
+}
